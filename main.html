@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="main_wrap.css">
+    <title>Log in</title>
+</head>
+<body>
+<aside class="sidebar">
+      <a href="#" class="logo__wrap">
+          <span class="logo">LOGO</span>
+        </a>
+        <ul class="sidebar__link-list">
+            <li class="sidebar__link-list-item">
+                <a href="first-block.html" class="sidebar__link">First Block</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="second-block.html" class="sidebar__link">Second Block</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="third-block.html" class="sidebar__link">Third Block</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="statistics.html" class="sidebar__link">Statistics</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="about.html" class="sidebar__link">About us</a>
+            </li>
+        </ul>
+
+        <button class="sidebar__btn">
+            <p class="sidebar__btn-getChance">Get a free chance</p>
+        </button>
+</aside>
+<header>
+    <nav class="nav__group">
+        <ul class="nav__block">
+            <li class="nav__item">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+                <a href="about-us.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+                <a href="faq.html" class="nav__link">FAQ</a>
+            </li>
+            <li class="nav__item nav__item-country">
+                <span>Country:</span> Ukraine
+                <img class="nav__item-country-img" src="img/chevron-down.svg" alt="country">
+                <ul class="nav__dropdown-list">
+                    <li class="country-dropdown__list-item dropdown__list-item">
+                        <a href="#Ukraine" class="country-dropdown__link">Ukraine</a>
+                    </li>
+                    <li class="country-dropdown__list-item dropdown__list-item">
+                        <a href="#France" data-flag="Comming soon"
+                           class="currency-dropdown__link country-dropdown__link_unaviable">France</a>
+                    </li>
+                    <li class="country-dropdown__list-item dropdown__list-item">
+                        <a href="#England" data-flag="Comming soon"
+                           class="currency-dropdown__link country-dropdown__link_unaviable">England</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav__lang-list">
+            <li class="nav__lang-list-item">
+                <a href="#en" class="nav__link nav__link_active">en</a>
+            </li>
+            <li class="nav__lang-list-item">
+                <a href="#nl" class="nav__link">fr</a>
+            </li>
+            <li class="nav__lang-list-item">
+                <a href="#de" class="nav__link">ua</a>
+            </li>
+        </ul>
+        <div class="nav__authorization nav__auth-wrap_authorized">
+            <a href="sign-in.html" class="nav__link nav__link_sign-in">
+                <img src="img/log-in.svg" alt="sing_in" class="nav__sing-in-img">
+                Sign in
+            </a>
+        </div>
+    </nav>
+    <form action="#" class="search" >
+            <input type="text" class="search__input" placeholder="Type here to search something..." />
+            <button class="search__btn btn" type="submit">Search</button>
+    </form>
+</header>
+<main class="main__wrap">
+    <h1 class="sign-in-head">Sign in</h1>
+    <div class="main__form-wrap">
+    <form class="main__form form-authorization" action="#">
+        <h1 class="form-head">On-line authorization service</h1>
+        <input type="text" placeholder="Your email" name="email" class="form-email form-input" title="Enter your email" required>
+        <input type="password" placeholder="Password" name="password" class="form-password form-input" title="Enter your password" required>
+        <label><input type="checkbox" name="remember_me" class="form-checkbox" title="Remember me"><span class="main__form-remember-me form-pass-part">Remember me</span></label>
+        <a href="#" class="main__form-forgot-pass form-pass-part">Forgot your password?</a><br>
+        <input type="submit" name="sign_in" class="form-submit-singIn form-btn" value="Sign in">
+        <input type="submit" name="sign_up" class="form-submit-singUp form-btn" value="Sign up">
+
+    </form>
+        <form class="main__form form-login"><h1 class="form-head">Login with your ID</h1>
+            <span class="form-login__text-area">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+            <input type="submit" name="signIn-id" class="main__form-login-submit form-btn" value="Sign in with your ID">
+        </form>
+    </div>
+</main>
+
+</body>
+</html>
